@@ -50,7 +50,7 @@ app.use((err, req, res, next) => {
 });
 
 // Configuration
-
-app.listen(process.env.PORT, () => {
-    console.log("Server Status: Online");
+let port = process.env.PORT || 2807;
+app.listen(port, () => {
+    console.log("Server Status: Online @" + port);
 });

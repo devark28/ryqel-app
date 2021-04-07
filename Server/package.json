@@ -4,8 +4,8 @@
     "description": "Teta Back-End",
     "main": "index.js",
     "scripts": {
-        "start": "node index.js",
-        "restart": "nodemon index.js",
+        "restart": "node index.js",
+        "start": "nodemon index.js",
         "test": "echo \"Error:no test specified\" && exit 1"
     },
     "author": "Devark",
