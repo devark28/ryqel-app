@@ -1,0 +1,16 @@
+.dialogs {
+    width: 90% ! important;
+}
+
+.dialog-box {
+    margin-top: 20px;
+}
+
+.logged-view,
+.logged-view>div {
+    padding: 0px !important;
+}
+
+.logged-user {
+    padding: 10px !important;
+}
