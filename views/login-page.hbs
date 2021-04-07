@@ -1,0 +1,59 @@
+<form method="POST" action="/login">
+    <div>
+        <div class="row justify-content-center" style="padding-top:10px;">
+            <label>
+                <h2><b>Log In</b></h2>
+            </label>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col flex-fill justify-content-start">
+                <div class="row justify-content-start" style="padding-top:10px;">
+                    <label>
+                        <h5><b>Username</b></h5>
+                    </label>
+                </div>
+                <div class="row justify-content-center" style="padding-top:10px;">
+                    <input class="form-control" required name="username" type="text" value="{{user_name}}" />
+                </div>
+                <div class="row justify-content-start" style="padding-top:10px;">
+                    <label>
+                        <h5><b>Password</b></h5>
+                    </label>
+                </div>
+                <div class="row justify-content-center" style="padding-top:10px;">
+                    <input class="form-control" required name="password" type="password" />
+                </div>
+                <div class="row justify-content-center dialog-box" style="padding:30px 0px  0px 0px;">
+                    <div class="col" style="text-align: start;padding:0px;">
+                        <button class="btn btn-primary dialogs cancel" type="reset"><b>Cancel</b></button>
+                    </div>
+                    <div class="col" style="text-align: end;padding:0px;">
+                        <button class="btn btn-primary dialogs" type="submit"><b>Log In</b></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col flex-fill justify-content-end logged-view" style="padding-top:20px;">
+                <div class="card">
+                    <div class="card-header bg-primary">
+                        <label>
+                            <h5><b>Log in As</b></h5>
+                        </label>
+                    </div>
+                    <div class="card-body">
+                        <div class="list-group">
+                            <div class="list-group-item logged-user">
+                                logged 1
+                            </div>
+                            <div class="list-group-item logged-user">
+                                logged 2
+                            </div>
+                            <div class="list-group-item logged-user">
+                                logged 3
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
