@@ -1,0 +1,78 @@
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: rgb(122, 121, 190); */
+    border-width: 5px;
+    border-radius: 10px;
+    padding: 10px 20px 17px 20px;
+}
+
+p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: transparent;
+}
+
+input,
+button {
+    border-color: rgb(74, 74, 248);
+    background-color: transparent;
+    padding: 2px 5px;
+    height: 40px !important;
+    border-style: inset outset ridge;
+    border-width: 0px 0px 2px 0px !important;
+    opacity: 0.6;
+}
+
+.send {
+    margin-top: 20px;
+}
+
+input:hover,
+button:hover {
+    opacity: 1;
+}
+
+input:focus,
+button:focus {
+    border-width: 3px;
+    outline-width: 0px;
+    opacity: 1;
+}
+
+input:focus {
+    border-radius: 10px;
+}
+
+button:focus {
+    border-radius: 5px;
+}
+
+button:focus {
+    border-color: rgb(74, 74, 248);
+    /* border-radius: 0px; */
+    border-width: 0px 0px 3px 0px;
+    outline: 0px none !important;
+    opacity: 0.4;
+}
+
+button:active {
+    background-color: rgb(74, 74, 248);
+    opacity: 1;
+}
+
+button {
+    height: 30px;
+    font-weight: bolder;
+}
+
+h1 {
+    text-align: center;
+}
+
+.form-control:focus,
+.btn-primary:focus {
+    box-shadow: none !important;
+}

@@ -1,0 +1,15 @@
+<form method="post" action="/message-details">
+    <div>
+    <h1>Enter the content of the message
+        <h4 style="margin: 20px 0px 30px 0px;"><span style="margin: 20px 0px 20px 0px;background-color: chartreuse;border-radius: 20px;padding: 5px 10px 5px 10px;">User : {{user_name}}</span></h4>
+    </h1>
+    </div>
+    <div class="container body-content"></div>
+        <div class="container">
+            <p class="row justify-content-center"><b>Title:</b><input class="form-control" type="text" name="title" value="No Title" /></p>
+            <p class="row justify-content-center"><b>Receiver:</b><input class="receiver form-control" type="text" name="receiver" /></p>
+            <p class="row justify-content-center"><b>Content:</b><input class="content form-control" type="text" name="content" /></p>
+            <p class="row justify-content-center"><button class="send btn btn-primary" type="submit" value="Send"><b>Send</b></button></p>
+        </div>
+    </div>
+</form>
